@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/kenanaks/logoritmik.com/depo
+    - /bin/cp -R * $DEPLOYPATH
